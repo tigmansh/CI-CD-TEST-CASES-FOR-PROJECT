@@ -38,7 +38,7 @@ else if(operation === 'tan'){
 }
 
 else if(operation === 'random'){
-    let length = 5;
+    let length =  num1;
     x = crypto.randomBytes(length).toString('hex');
 }
 
